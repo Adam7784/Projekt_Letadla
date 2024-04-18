@@ -20,13 +20,7 @@ class Dashboard extends BaseController
 
     public function index()
     {
-        echo "už su tady";
-        $user = $this ->ionAuth->user()->row();
-        echo '</br>';
-        echo $user->first_name;
-        echo $user->last_name;
         
-    
     }
     }
 

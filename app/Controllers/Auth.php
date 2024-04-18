@@ -20,7 +20,7 @@ class Auth extends BaseController
         $this->ionAuth = new IonAuth();
     }
 
-
+ 
     /**
      *  vykreslí přihlašovací formulář
      */
